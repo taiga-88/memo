@@ -1,0 +1,43 @@
+
+body {
+    background-color: bisque;
+}
+
+
+
+.title {
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 20px;
+    color: black;
+    
+
+}
+
+input {
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+    
+    
+    
+}
+
+.bigbody {
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    
+}
+
+.title::after {
+    content: "";
+    width: 15%;
+    height: 5px;
+    background-color: black;
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+    top: -20px;
+}
